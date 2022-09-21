@@ -1,0 +1,11 @@
+CREATE TABLE DEPARTMENT (
+  Dept_no VARCHAR(10),
+  Dept_name VARCHAR(100),
+  Dept_head CHAR(100)
+  );
+INSERT INTO DEPARTMENT(Dept_no,Dept_name,Dept_head)
+VALUES
+(0111,"cardiology","HOD"),
+(0211,"psychology","HOD"),
+(0311,"neurology","HOD"),
+(0411,"zoology","HOD");
